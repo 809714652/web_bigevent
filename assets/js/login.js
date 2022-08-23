@@ -20,7 +20,6 @@ $(function() {
         'repwd': function(value) {
             var pwd = $('#form_reg [name = password]').val();
             if (pwd != value) {
-                console.log(pwd, value)
                 return '两次密码不一致'
             }
         }
